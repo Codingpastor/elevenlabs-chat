@@ -9,6 +9,9 @@
     "start": "npm run build && npm run start:backend",
     "start:python": "npm run build && uvicorn backend.server:app --reload --port 3000"
   },
+    "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "@11labs/client": "latest",
     "cors": "^2.8.5",
